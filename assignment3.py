@@ -42,14 +42,13 @@ y=l2.pop()
 print(y)
 
 #EXTRA QUESTION
+print('''THE LIST CONTAINS THE FOLLOWING ELEMENTS''')
+print(l4)
 i=0
-ceven=0
-codd=0
-for i in l4:
-    if i%2 ==0:
-        ceven=ceven+1
-    else:
-        codd=codd+1
 
-print("even no present are %d"%(ceven))
-print("odd no present are %d"%(codd))
+for i in l4:
+    if i%2==0:
+        x=l4.count(i)
+print(x)
+#print("even no present are %d"%(ceven))
+#print("odd no present are %d"%(codd))
