@@ -24,5 +24,6 @@ elif choice == '3':
 elif choice == '4':
    res=num1%num2
    print(num1,"/",num2,"= %.2f"%(res))
+
 else:
    print("Invalid input")

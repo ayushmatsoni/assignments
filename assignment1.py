@@ -1,5 +1,4 @@
 print("hello")
-
 print("ACAD"+"VIEW")
 
 a=10
